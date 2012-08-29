@@ -1,3 +1,4 @@
 <?php
- echo phpinfo();
+include 'config.php';
+echo $user_db;
  ?>
