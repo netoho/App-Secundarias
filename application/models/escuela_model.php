@@ -5,7 +5,7 @@ class Escuela_model extends CI_Model {
 		parent::__construct();
 	}
 	
-	function getData(){
+	function escuelas(){
 		$query = $this->db->get('Escuelas');
 		if($query->num_rows() > 0) {
 			return $query->result();

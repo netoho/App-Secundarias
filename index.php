@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 
 /*
  *---------------------------------------------------------------
@@ -204,8 +203,3 @@ require_once BASEPATH.'core/CodeIgniter.php';
 
 /* End of file index.php */
 /* Location: ./index.php */
-=======
-include 'config.php';
-echo $user_db;
- ?>
->>>>>>> d0d61875f33f23720b1fcf61a6d8e5f20f8d2b3e
